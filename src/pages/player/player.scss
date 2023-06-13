@@ -1,0 +1,21 @@
+.playerContainer {
+  width: 100vw;
+  height: 100vh;
+
+  .back {
+    padding: 2rem;
+    position: absolute;
+    z-index: 1;
+
+    svg {
+      font-size: 3rem;
+      cursor: pointer;
+    }
+  }
+
+  video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
